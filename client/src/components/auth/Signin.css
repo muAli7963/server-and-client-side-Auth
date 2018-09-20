@@ -1,0 +1,56 @@
+.signin {
+    margin: 30px auto 0 auto;
+    padding: 15px;
+    width: 400px;
+    border-radius: 8px;
+    background-color: #D9CDB3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+input {
+    outline: 0;
+    background-color:#C1CDDC;
+    width: 100%;
+    border-radius: 10px;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+input::placeholder {
+    color: #6179B5;
+}
+.email-input {
+    width: 100%;
+}
+.password-input {
+    width: 100%;
+}
+.btn {
+    text-transform: uppercase;
+  outline: 0;
+  background: #497791;
+  width: 100%;
+  border: 3px solid transparent;
+  border-radius: 20px;
+  padding: 15px;
+  color:#fff;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+.btn:hover,.btn:active,.btn:focus {
+    border: 3px solid #497791;
+    color: #497791;
+    background-color: #D9CDB3;
+   }
+   .error-message {
+       width: 100%;
+       padding: 5px 0;
+       color:#D24541;
+   }
